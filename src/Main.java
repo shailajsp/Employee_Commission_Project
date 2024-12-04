@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
+public class Main {
+    public static void main(String[] args) {
 
-public class main {
+        Employee_Comm empObj = new Employee_Comm(); //Create Employee object
+        empObj.inputEmployee(); //  Call the input Employee method
+    }
 }
